@@ -1,0 +1,77 @@
+body {
+    background-color: rgb(95, 131, 94);
+}
+h5 {
+    font-size: small;
+   
+}
+b {
+    font-size: 26px;
+    font-weight: 800;
+}
+h3 {
+    color: rgb(40, 37, 37);
+    font-size: 24px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+h2 {
+    font-size: 26px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(193, 200, 176) 
+   
+}
+l {
+    font-size: 22px;
+}
+m {
+    font-size: 20px;
+}
+small {
+    font-size: 18px;
+}
+xs {
+    font-size: 16px;
+}
+xxs {
+    font-size: 14px;
+}
+teeny {
+    font-size: 12px;
+}
+tiny {
+    font-size: 10px;
+}
+h1 {
+    font-size: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(240, 232, 232) 
+    
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(215, 206, 206) ;
+    padding: 10px;
+    margin:10px 200px 100px 20px;
+}
+rain1 {
+    color: #FFC5A6;
+}
+rain2 {
+    color:#FDAC98;
+}
+rain3 {
+    color:#DC8E90
+}
+rain4 {
+    color:#A97882
+}
+cursive {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+}
+
+box {
+    background-color: rgb(134, 147, 134);
+}
