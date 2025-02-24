@@ -1,0 +1,292 @@
+/*Overall look*/
+* {
+    margin: 0;
+    padding: 0;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+h6 {
+    font-family: "IBM Plex Serif",serif;
+    font-size: 18px;
+
+}
+h5 {
+    font-family: "IBM Plex Serif",serif;
+    font-weight:600;
+    font-size: 26px;
+}
+
+h4 {
+    font-family: "IBM Plex Serif",sans-serif;
+    font-size: 40px;
+}
+h3 {
+    font-family: "IBM Plex Serif",sans-serif;
+    font-size: 30px;
+    padding: 50px 20px 20px 20px;
+}
+.disclaimer {
+    color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(191, 46, 46);
+    text-align: center;
+}
+/*Links*/
+nav {
+    margin-top: 50px;
+    background-color: rgb(12, 12, 156);
+    padding: 20px 20px 20px 20px;
+    position: sticky;
+}
+li {
+    font-family: "IBM Plex Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal; 
+  font-variation-settings:
+    "wdth" 600;
+    font-size: 24px;
+    display: inline-block;
+    margin: 0 50px 0px 50px;
+    position: sticky;
+    text-decoration: none;
+}
+li a {
+    color:rgb(252, 244, 234);
+    padding: 5px 10px 5px 10px;
+    text-decoration: none;
+}
+li a:hover {
+    color: rgb(12, 12, 156);
+    background-color: rgb(252, 244, 234);
+    text-decoration: none;
+}
+/*--Title and Disclaimer-->*/
+.titleimage img{
+    width: 100%;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 0px;
+    background-size: contain;
+}
+
+#TitleImage {
+    width: 50%;
+    padding: 50px 10px 10px 0px;
+    margin: 0 50% 0 25%;
+}
+.introduction {
+    padding: 10px 10px 20px 10px;
+    color: rgb(252, 244, 234);
+    
+}
+
+#Disclaimer {
+    background-color: rgb(252, 244, 234);
+    margin: 20px 30px 20px 30px;
+    text-align: center;
+    padding: 40px 30px 30px 40px;
+}
+.claims {
+    margin: 20px 50px 20px 30px;
+}
+.trigger {
+    margin: 20px 20px 20px 20px;
+
+}
+#partone {
+    margin: 20px 30px 20px 20px;
+    text-align: center;
+    background-color:rgb(252, 244, 234);
+    padding: 40px 30px 30px 40px;
+}
+#parttwo {
+    margin: 20px 30px 20px 20px;
+    text-align: center;
+    background-color:rgb(252, 244, 234);
+    padding: 40px 30px 30px 40px;
+}
+#partthree {
+    margin: 20px 30px 20px 20px;
+    text-align: center;
+    background-color:rgb(252, 244, 234);
+    padding: 40px 30px 30px 40px;
+}
+#partfour {
+    margin: 20px 30px 20px 20px;
+    text-align: center;
+    background-color:rgb(252, 244, 234);
+    padding: 40px 30px 30px 40px;
+}
+#partfive {
+    margin: 20px 30px 20px 20px;
+    text-align: center;
+    background-color:rgb(252, 244, 234);
+    padding: 40px 30px 30px 40px;
+}
+.summary {
+    font-family: "IBM Plex Serif",serif;
+    font-size: 20px;
+}
+text {
+    font-family: "IBM Plex Serif",serif;
+    font-size: 20px;
+    display: block;
+}
+.titlecard {
+    padding: 0px 0px 70px 0px;
+}
+.meetscarlett img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.scene1 img {
+    width: 75%;
+    padding: 10px 5px 10px 5px;
+    margin: 10px 5px 10px 0px;
+    background-size: contain;
+}
+.meetashley img{
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.hotgnome img {
+    width: 75%;
+    padding: 20px 5px 10px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.oharafamily img{
+    width: 75%;
+    padding: 20px 5px 10px 5px;
+    margin: 20px 5px 10px 0px;
+    background-size: contain;
+}
+.plan img {
+    width: 75%;
+    padding: 20px 5px 10px 5px;
+    margin: 20px 5px 10px 0px;
+    background-size: contain;
+}
+.meetrhett img{
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.meetmelanie img{
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.littlenote {
+    font-size: 12px;
+    font-family: "IBM Plex Serif",serif;
+
+}
+.scene2 img{
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;  
+}
+.mawige img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;  
+}
+.thoughts img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.money img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.rip img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.horse img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.loot img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.warisover img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain; 
+}
+
+.woo img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain; 
+}
+
+.news img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;  
+}
+.saved img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain; 
+}
+
+.mansion img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain; 
+}
+.lionking img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.theend img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+.horsefall img {
+    width: 75%;
+    padding: 10px 5px 20px 5px;
+    margin: 10px 5px 20px 0px;
+    background-size: contain;
+}
+
+#Links {
+    margin-bottom: 60px;
+    color: aliceblue;
+    padding-bottom: 50px;
+}
